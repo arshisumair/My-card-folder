@@ -1,0 +1,41 @@
+*{
+    padding:0px ;
+    margin: 0%;
+}
+
+.main{
+    height:50px;
+    width:170vh ;
+    padding-right: 20%;
+    padding-left:10%;
+}
+.header{
+    background-color:rgb(236, 168, 202);
+    box-shadow:3px 3px 5px 5px grey;
+    border-radius: 30px;
+} 
+.list{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.list>li{
+    list-style: none;
+    padding: 10px;
+}
+.list>li:hover{
+    color: cornflowerblue;
+}
+.box{
+    background-color:rgb(21, 173, 123);
+    box-shadow:5px 5px 7px 7px green;
+    height:160px ;
+    width:180px ;
+    border-radius: 20px;
+    text-align:center;
+    padding-top: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
